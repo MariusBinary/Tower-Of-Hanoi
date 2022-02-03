@@ -209,7 +209,7 @@ void draw() {
                             printf("%c", 0xB1);
                         }
                     } else {
-                        printf("%c", 0x00);
+                        printf(" ");
                     }
                 } else if (y == 1) {
                     // Stampa la punta della torre.
@@ -249,7 +249,7 @@ void draw() {
                         if (x == (xDrawWidth / 2)) {
                             printf("%c", 0xD7);
                         } else {
-                            printf("%c", 0x00);
+                            printf(" ");
                         }
                     }
                 }
